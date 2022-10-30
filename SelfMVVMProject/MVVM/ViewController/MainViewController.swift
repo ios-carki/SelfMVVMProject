@@ -46,6 +46,7 @@ class MainViewController: UIViewController {
         }
     }
     
+    
     func tableSetting() {
         mainView.tableView.dataSource = self
         mainView.tableView.delegate = self
